@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/diary-redux/static/css/main.d752cd53.css",
-    "main.js": "/diary-redux/static/js/main.599140cf.js",
+    "main.css": "/diary-redux/static/css/main.e926fbdc.css",
+    "main.js": "/diary-redux/static/js/main.7df42592.js",
     "index.html": "/diary-redux/index.html",
-    "main.d752cd53.css.map": "/diary-redux/static/css/main.d752cd53.css.map",
-    "main.599140cf.js.map": "/diary-redux/static/js/main.599140cf.js.map"
+    "main.e926fbdc.css.map": "/diary-redux/static/css/main.e926fbdc.css.map",
+    "main.7df42592.js.map": "/diary-redux/static/js/main.7df42592.js.map"
   },
   "entrypoints": [
-    "static/css/main.d752cd53.css",
-    "static/js/main.599140cf.js"
+    "static/css/main.e926fbdc.css",
+    "static/js/main.7df42592.js"
   ]
 }
