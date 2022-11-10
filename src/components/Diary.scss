@@ -1,0 +1,79 @@
+.diary {
+  padding: 20px;
+
+  &__input {
+    border-radius: 6px;
+    border: 2px solid #330ede;
+    padding: 6px;
+    margin-right: 14px;
+    width: 500px;
+    margin-bottom: 20px;
+  }
+
+  &__input:focus {
+    border-color: #06f159;
+    outline: none;
+  }
+
+  &__add-note {
+    background: #364fd0;
+    padding: 6px 10px;
+    color: white;
+    border: #364fd0;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  &__note {
+    padding: 20px;
+    border: 1px solid #7c62f3;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    position: relative;
+
+    .note-input {
+      border: none;
+      border-bottom: 1px solid grey;
+      width: 100%;
+      padding: 6px 8px 1px 0;
+      margin-bottom: 10px;
+      font-size: 110%;
+
+      &:focus {
+        border-bottom-color: grey;
+        outline: none;
+        font-style: italic;
+      }
+    }
+
+    .change-date {
+      font-style: italic;
+      color: #444242;
+    }
+
+    .button-delete {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      cursor: pointer;
+      background: red;
+      border: none;
+      border-radius: 4px;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+  }
+
+  &__pages {
+    margin-bottom: 10px;
+
+    span {
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}
