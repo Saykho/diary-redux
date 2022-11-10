@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/diary-redux/static/css/main.d752cd53.css",
+    "main.js": "/diary-redux/static/js/main.599140cf.js",
+    "index.html": "/diary-redux/index.html",
+    "main.d752cd53.css.map": "/diary-redux/static/css/main.d752cd53.css.map",
+    "main.599140cf.js.map": "/diary-redux/static/js/main.599140cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d752cd53.css",
+    "static/js/main.599140cf.js"
+  ]
+}
