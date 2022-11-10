@@ -6,7 +6,8 @@
     border: 2px solid #330ede;
     padding: 6px;
     margin-right: 14px;
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     margin-bottom: 20px;
   }
 
@@ -69,7 +70,11 @@
   }
 
   &__pages {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+
+    .name-pages {
+      margin-bottom: 10px;
+    }
 
     span {
       font-weight: bold;

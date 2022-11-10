@@ -49,6 +49,7 @@ export function Diary() {
                 Добавить заметку
             </button>
             <div className="diary__pages">
+                <div className="name-pages">Номера страниц:</div>
                 {pages.map(p =>
                     (
                         <span key={p}
